@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/order/order.component.scss"],
+  "sourcesContent": [".page-order {\r\n    padding: 12px\r\n}"],
+  "mappings": ";AAAA,CAAA;AACI,WAAA;;",
+  "names": []
+}
