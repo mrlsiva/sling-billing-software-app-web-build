@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/settings/settings.component.scss"],
-  "sourcesContent": [".settings-grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(2, 1fr);\r\n    gap: 12px;\r\n    padding: 12px\r\n}\r\n\r\n.setting-card {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding: 16px;\r\n    border-radius: 10px;\r\n    background: #fff2e2;\r\n    border: 1px solid #eee;\r\n    color: var(--text, #222);\r\n    text-decoration: none\r\n}\r\n\r\n.setting-card .label {\r\n    margin-top: 8px;\r\n    font-weight: 600\r\n}"],
-  "mappings": ";AAAA,CAAA;AACI,WAAA;AACA,yBAAA,OAAA,CAAA,EAAA;AACA,OAAA;AACA,WAAA;;AAGJ,CAAA;AACI,WAAA;AACA,kBAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA;AACA,iBAAA;AACA,cAAA;AACA,UAAA,IAAA,MAAA;AACA,SAAA,IAAA,MAAA,EAAA;AACA,mBAAA;;AAGJ,CAbA,aAaA,CAAA;AACI,cAAA;AACA,eAAA;;",
-  "names": []
-}

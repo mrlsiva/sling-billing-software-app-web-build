@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/services/toast.service.ts"],
-  "sourcesContent": ["import { Injectable } from '@angular/core';\r\nimport { BehaviorSubject } from 'rxjs';\r\n\r\nexport interface ToastMsg { message: string; type?: 'info' | 'error' | 'success'; id?: number }\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class ToastService {\r\n    private subj = new BehaviorSubject<ToastMsg | null>(null);\r\n    toast$ = this.subj.asObservable();\r\n    private lastId = 0;\r\n\r\n    show(message: string, type: 'info' | 'error' | 'success' = 'info', ms = 3000) {\r\n        const id = ++this.lastId;\r\n        this.subj.next({ message, type, id });\r\n        if (ms > 0) setTimeout(() => { if (this.lastId === id) this.clear(); }, ms);\r\n    }\r\n\r\n    clear() { this.subj.next(null); }\r\n}\r\n"],
-  "mappings": ";;;;;;;;AAMM,IAAO,eAAP,MAAO,cAAY;EACb,OAAO,IAAI,gBAAiC,IAAI;EACxD,SAAS,KAAK,KAAK,aAAY;EACvB,SAAS;EAEjB,KAAK,SAAiB,OAAqC,QAAQ,KAAK,KAAI;AACxE,UAAM,KAAK,EAAE,KAAK;AAClB,SAAK,KAAK,KAAK,EAAE,SAAS,MAAM,GAAE,CAAE;AACpC,QAAI,KAAK;AAAG,iBAAW,MAAK;AAAG,YAAI,KAAK,WAAW;AAAI,eAAK,MAAK;MAAI,GAAG,EAAE;EAC9E;EAEA,QAAK;AAAK,SAAK,KAAK,KAAK,IAAI;EAAG;;qCAXvB,eAAY;EAAA;4EAAZ,eAAY,SAAZ,cAAY,WAAA,YADC,OAAM,CAAA;;;sEACnB,cAAY,CAAA;UADxB;WAAW,EAAE,YAAY,OAAM,CAAE;;;",
-  "names": []
-}

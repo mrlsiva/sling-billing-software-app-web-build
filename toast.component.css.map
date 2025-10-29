@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/toast/toast.component.scss"],
-  "sourcesContent": [".toast {\r\n    position: fixed;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    bottom: 1.5rem;\r\n    z-index: 2000\r\n}\r\n\r\n.toast-inner {\r\n    padding: .6rem 1rem;\r\n    border-radius: 6px;\r\n    color: #fff\r\n}\r\n\r\n.toast-inner.error {\r\n    background: #ff4d4f\r\n}\r\n\r\n.toast-inner.success {\r\n    background: #28a745\r\n}\r\n\r\n.toast-inner.info {\r\n    background: #333\r\n}"],
-  "mappings": ";AAAA,CAAA;AACI,YAAA;AACA,QAAA;AACA,aAAA,WAAA;AACA,UAAA;AACA,WAAA;;AAGJ,CAAA;AACI,WAAA,OAAA;AACA,iBAAA;AACA,SAAA;;AAGJ,CANA,WAMA,CAAA;AACI,cAAA;;AAGJ,CAVA,WAUA,CAAA;AACI,cAAA;;AAGJ,CAdA,WAcA,CAAA;AACI,cAAA;;",
-  "names": []
-}

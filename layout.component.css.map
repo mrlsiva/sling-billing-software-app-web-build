@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/layout/layout.component.scss"],
-  "sourcesContent": [".app-main {\r\n    padding: 1rem;\r\n    padding-bottom: 72px;\r\n    min-height: calc(100vh - 150px);\r\n    max-height: calc(100vh - 150px);\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n    /* give extra room for footer */\r\n}\r\n\r\n.app-layout {\r\n    min-height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\napp-header {\r\n    flex: 0 0 auto;\r\n}\r\n\r\n.app-main {\r\n    flex: 1 1 auto;\r\n    /* allow only main to scroll while header/footer stay fixed */\r\n    overflow: auto;\r\n    /* ensure main accounts for fixed header height */\r\n    -webkit-overflow-scrolling: touch;\r\n}\r\n\r\napp-footer {\r\n    flex: 0 0 auto;\r\n}"],
-  "mappings": ";AAAA,CAAA;AACI,WAAA;AACA,kBAAA;AACA,cAAA,KAAA,MAAA,EAAA;AACA,cAAA,KAAA,MAAA,EAAA;AACA,cAAA;AACA,cAAA;;AAIJ,CAAA;AACI,cAAA;AACA,WAAA;AACA,kBAAA;;AAGJ;AACI,QAAA,EAAA,EAAA;;AAGJ,CApBA;AAqBI,QAAA,EAAA,EAAA;AAEA,YAAA;AAEA,8BAAA;;AAGJ;AACI,QAAA,EAAA,EAAA;;",
-  "names": []
-}
